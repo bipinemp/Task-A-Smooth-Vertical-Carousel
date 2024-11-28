@@ -88,3 +88,15 @@
   scale: 2;
   z-index: 10;
 }
+
+@media (max-width: 768px) {
+  .section {
+    width: 200px;
+  }
+}
+
+@media (max-width: 500px) {
+  .section {
+    width: 140px;
+  }
+}
